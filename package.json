@@ -67,5 +67,7 @@
     "caporal": "^0.9.0",
     "update-notifier": "^2.3.0"
   },
-  "bin": "bin/cli"
+  "bin": {
+    "cli": "bin/cli"
+  }
 }

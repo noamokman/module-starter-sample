@@ -1,5 +1,7 @@
 # module 
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/noamokman/module-starter-sample.svg)](https://greenkeeper.io/)
+
 
 ## Installation
 ```bash

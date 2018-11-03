@@ -1,25 +1,25 @@
-# cli 
-cli cli
+# module-starter [![Build Status](https://travis-ci.org/noamokman/module-starter.svg?branch=master)](https://travis-ci.org/noamokman/module-starter) [![Coverage Status](https://coveralls.io/repos/github/noamokman/module-starter/badge.svg?branch=master)](https://coveralls.io/github/noamokman/module-starter?branch=master)
+a cli tool to help you start a new node module
 
 ## Installation
 As cli tool
 ```bash
-$ [sudo] npm install cli -g
+$ [sudo] npm install module-starter -g
 ```
 
 Programmatically
 ```bash
-$ [sudo] npm install cli
+$ [sudo] npm install module-starter
 ```
 
 ## Usage
 ### CLI
 ```bash
-$ cli 0.0.0 - cli cli
+$ module-starter 0.0.0 - a cli tool to help you start a new node module
 
   USAGE
 
-    cli add <a> <b>
+    module-starter add <a> <b>
 
   ARGUMENTS
 
@@ -37,11 +37,11 @@ $ cli 0.0.0 - cli cli
 
 ### Programmatically
 ```js
-import {add} from 'cli';
+import {add} from 'module-starter';
 
 add(1, 2); // 3
 ```
 
 ## License
 
-[ISC](LICENSE)
+[MIT](LICENSE) © [Noam Okman](https://github.com/noamokman)
